@@ -1,5 +1,4 @@
 import AppError from '@shared/errors/AppError';
-import { executionAsyncResource } from 'async_hooks';
 import { getCustomRepository } from 'typeorm';
 import Product from '../typeorm/entities/Product';
 import { ProductRepository } from '../typeorm/repositories/ProductsRepository';
